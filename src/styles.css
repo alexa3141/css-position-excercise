@@ -1,4 +1,5 @@
-*, body {
+*,
+body {
   margin: 0;
   padding: 0;
 }
@@ -19,6 +20,86 @@ body {
   height: 600px;
   border: dashed saddlebrown 1px;
   position: relative;
+  overflow: hidden;
 }
 
 /* Add your styles here */
+.banner__title {
+  position: absolute;
+  width: 200px;
+  left: 50px;
+  top: 30px;
+}
+.banner__woman-square {
+  position: relative;
+  width: 135px;
+  top: 90px;
+  left: 20px;
+}
+
+.banner__woman-round {
+  position: relative;
+  width: 110px;
+  top: 170px;
+  right: -15px;
+}
+
+.banner__red-circle {
+  position: relative;
+  width: 45px;
+  top: -45px;
+  right: -245px;
+}
+
+.banner__blue-dot {
+  position: absolute;
+  right: 110px;
+  top: 120px;
+}
+.banner__yellow-square {
+  position: absolute;
+  left: -35px;
+  top: 240px;
+  transform: scale(110%);
+}
+
+.banner__green-circle {
+  position: relative;
+  top: 16px;
+  left: 285px;
+  transform: scale(120%);
+}
+
+.banner__cta {
+  position: absolute;
+  bottom: 40px;
+  width: 45px;
+  left: 120px;
+}
+
+.banner__blue-triangle {
+  position: absolute;
+  top: 80px;
+  left: 15px;
+  transform: rotate(85deg) scale(140%);
+}
+.banner__circles {
+  position: relative;
+}
+
+.banner__black-triangle {
+  position: relative;
+  left: 200px;
+  bottom: 20px;
+  transform: rotate(180deg);
+}
+.banner__text {
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  font-size: 25px;
+  line-height: 40px;
+  font-weight: 400;
+}
